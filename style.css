@@ -1,0 +1,563 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smoth;
+}
+
+body {
+    font-family: lato-regular, arial !important;
+    transition: all 0.3 ease;
+    -webkit-transition: all 0.3 ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.container_full {
+    width: 100%
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.logo_left h2 {
+    font-size: 30px;
+    font-family: lato;
+    font-weight: regular;
+    color: #6C6C6C;
+    float: left;
+    padding: 20px 0px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #6C6C6C;
+    padding: 40px 20px;
+    transition: all ease 0.5s;
+}
+
+.menu li a:hover {
+    color: #EC5483;
+}
+
+.banner {
+    background: url("img/background.png") no-repeat;
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+}
+
+.bk_text h2 {
+    font-size: 40px;
+    font-family: lato;
+    font-weight: regular;
+    color: #646262;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.bk_text p {
+    font-size: 18px;
+    font-family: lato;
+    font-weight: regular;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    background: #EC5483;
+    border-width: 240px;
+    display: inline-block;
+    margin-left: 225px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.roated {
+    width: 187px;
+    float: left;
+    margin-right: 18px;
+}
+
+.roated img {
+    width: 40px;
+    height: 40px;
+    margin-left: 75px;
+    padding-bottom: 20px;
+}
+
+.roated p {
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    text-align: center;
+}
+
+.roated h3 {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: bold;
+    color: #615F5F;
+    text-align: center;
+}
+
+.clock {
+    width: 187px;
+    float: left;
+    margin-right: 18px;
+}
+
+.clock img {
+    width: 40px;
+    height: 40px;
+    margin-left: 75px;
+    padding-bottom: 20px;
+}
+
+.clock p {
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    text-align: center;
+}
+
+.clock h3 {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: bold;
+    color: #615F5F;
+    text-align: center;
+}
+
+.note {
+    width: 187px;
+    float: left;
+}
+
+.note img {
+    width: 40px;
+    height: 40px;
+    margin-left: 75px;
+    padding-bottom: 20px;
+}
+
+.note p {
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    text-align: center;
+}
+
+.note h3 {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: bold;
+    color: #615F5F;
+    text-align: center;
+}
+
+.article {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.box {
+    margin-top: 100px;
+}
+
+.box1 {
+    width: 280px;
+    border: 1px solid #EEEEEE;
+    width: 280px;
+    float: left;
+    margin-right: 20px;
+}
+
+.box1 p {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    padding: 20px 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box2 {
+    width: 280px;
+    border: 1px solid #EEEEEE;
+    width: 280px;
+    float: left;
+}
+
+.box2 p {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    padding: 20px 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.section1 {
+    background: #FCFCFC;
+    height: 500px
+}
+
+.man {
+    padding-top: 20px;
+}
+
+.men {
+    width: 280px;
+    float: left;
+    padding-top: 30px;
+}
+
+.men img {
+    margin-left: 108px;
+}
+
+.men h3 {
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #686868;
+    text-align: center;
+}
+
+.men p {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    text-align: center;
+}
+
+.woman {
+    width: 280px;
+    float: right;
+    padding-top: 30px;
+}
+
+.woman img {
+    margin-left: 108px;
+}
+
+.woman h3 {
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #686868;
+    text-align: center;
+}
+
+.woman p {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    text-align: center;
+}
+
+.box_4 {
+    Margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+.box_1 {
+    background: ;
+    border: 2px solid#D6D3D3;
+    width: 130px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+}
+
+.box_1 h2 {
+    font-size: 20px;
+    font-family: lato;
+    font-weight: regular;
+    color: #D6D3D3;
+    text-align: center;
+}
+
+.box_1 p {
+    font-size: 8px;
+    font-family: lato;
+    font-weight: regular;
+    color: #D6D3D3;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imeges {
+    height: 545px;
+    background: #FCFCFC;
+}
+
+.imege_1 {
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+}
+
+.padding {
+    padding-right: none;
+}
+
+.imege_1 img {
+    width: 280px;
+    height: 240px;
+    float: left;
+    overflow: hidden;
+}
+
+.imege_1 h2 {
+    text-align: ;
+}
+
+.imege_1 p {
+    font-size: 12px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+    text-align: ;
+}
+
+.h2_padding {
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #686868;
+}
+
+.all_imege {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.global_1 {
+    height: 35px;
+    width: 35px;
+    float: left;
+    padding-right: 10px;
+}
+
+.clock_1 {
+    height: 35px;
+    width: 35px;
+    float: left;
+    padding-right: 10px;
+}
+
+.lock_1 {
+    height: 35px;
+    width: 35px;
+    float: left;
+    padding-right: 10px;
+}
+
+.note_1 {
+    height: 35px;
+    width: 35px;
+    float: left;
+    padding-right: 10px;
+}
+
+.contain {
+    height: 190px;
+    width: 240px;
+    float: left;
+    padding-right: 10px;
+}
+
+.contain h3 {
+    text-transform: uppercase;
+}
+
+.sedule_1 {
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.img_con {
+    padding-right: 10px;
+}
+
+.img_pic img {
+    height: 170px;
+    width: 185px;
+    float: left;
+    padding-right: ;
+}
+
+.content_of_img {
+    width: 370px;
+    float: left;
+    padding-bottom: 30px;
+    margin-left: 44px;
+}
+}
+
+.content_of_img h2 {
+    font-size: 16px;
+    font-family: lato;
+    font-weight: regular;
+    color: #686868;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    margin-top: -6px;
+}
+
+.content_of_img p {
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #8C8C8C;
+}
+
+.img_content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.imege_content {
+    background: #FCFCFC;
+}
+
+.h2_1 {
+    font-size: 20px;
+    font-family: lato;
+    font-weight: regular;
+    color: #686868;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px
+}
+
+.h2_2 {
+    font-size: 20px;
+    font-family: lato;
+    font-weight: regular;
+    color: #686868;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sign_up_button {
+    font-size: 18px;
+    font-family: lato;
+    font-weight: regular;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    background: #EC5483;
+    padding: 5px 10px;
+    width: 225px;
+    margin-top: 100px;
+}
+
+.paragraph {
+    padding-bottom: 100px;
+}
+
+.menu_footer {
+    list-style: none;
+    float: left;
+    width: 360px;
+    padding-left: 25%;
+}
+
+.menu_footer li {
+    float: left;
+}
+
+.menu_footer li a {
+    display: block;
+    font-size: 14px;
+    font-family: lato;
+    font-weight: regular;
+    color: #BCC9DD;
+    padding: 10px 20px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: lato;
+    font-weight: regular;
+    color: #BCC9DD;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 60px;
+    padding-top: 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    font-size: 30px;
+    font-family: lato;
+    font-weight: regular;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer_bg {
+    background: #38404B;
+}
